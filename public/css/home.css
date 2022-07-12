@@ -1,0 +1,6 @@
+body{
+    background-image: url('../img/emilia-home.jpg');/* Para poner una imagen en el body */
+    background-repeat: no-repeat;/* Para ver cuantas veces se repite la imagen */
+    background-position: right 0;/* posiciona la imagen en el lado derecho, primer parametro eje horizontal,segundo eje vertical */
+    background-size: 80%;/* Acomoda la imagen a nuestra pantalla */
+}
