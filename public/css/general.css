@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;/* Nos permite que nada se salga del borde */
+    margin: 0;/* Saca margenes y espacios */
+    padding: 0;/*Saca los puntos de las listas*/
+}/* *El asterisco afecta a tofa la pagina */
+
+a{
+    color: black;
+    text-decoration: none;/* Quita los subrayados */
+}/* para que los Hipervinculos se modifiquen */
+
+li{
+    list-style: none;/* Saca los puntos de la lista */
+}
