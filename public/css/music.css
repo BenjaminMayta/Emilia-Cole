@@ -1,0 +1,65 @@
+.music{
+    font-family: var(--fuenteSubtitulos);
+}
+
+.music header{
+    background-image: url(../img/emilia-music-top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    height: 160px;/* La altura del header */
+}
+
+.music header nav{
+    text-align: right; /* Se alinea todo nav a mano derecha */
+    padding-top: 50px; /* Baja el navegador */
+    padding-right: 15px;/* Moverlo a la izquierda */
+}
+
+.music header nav .navegacion{
+    background-color:#ffffff7c;
+}
+
+.music header nav .navegacion li{
+    display: inline; /* se pone todo en linea */   
+    border-left: 1px solid #1312127c;/* Separarlo con una barrita a la izquierda */
+}
+
+.music header li.barraDerecha{
+    border-right: 1px solid #1312127c
+}
+.music header nav .navegacion li a {
+    font-size: 24px;/* Aumenta el tamanio de la letra */
+}
+
+.music h1,h2{
+    font-family: var (--fuenteTitulos);
+    text-transform: uppercase;
+}
+
+.music main ul {
+    margin-left: 40px;
+}
+.music main a {
+    color: #6b6b6b;
+}
+
+.music main .comienzo{
+    margin-top: 90px;
+}
+
+.music main .last{
+    margin-bottom: 10px;
+}
+
+.music main span{
+    text-transform: uppercase;
+}
+
+.music main ol{   
+    margin-left: 35px   
+}
+
+.music main ol li{
+    margin-bottom: 109x;
+    list-style:decimal-leading-zero;/* Me enumera con el 0 */
+}
