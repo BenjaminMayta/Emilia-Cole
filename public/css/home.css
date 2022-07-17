@@ -20,6 +20,7 @@
 
 .home header nav ul li a {
     color: #6b6b6b;/* Cambia el color de las letras de los hiperpervinculos de la lista del header */
+    font-family: var(--fuenteSubtitulos);
 }
 
 .home header nav ul a {
@@ -32,7 +33,7 @@
 }
 
 .home main h2{
-    margin-bottom:130px;/* Para que emilia Cole // se separe de abajo */
+    margin-bottom:120px;/* Para que emilia Cole // se separe de abajo */
     margin-left: 30px;/* Para que se separe del lado izquierdo */
     font-family: var(--fuenteSubtitulos);
     font-size: 25px;
@@ -41,7 +42,7 @@
 }
 
 .home main h1{
-    font-size:89px;/* Tamaño de la letra. 3rem = 48px */
+    font-size:60px;/* Tamaño de la letra. 3rem = 48px */
     background-color: #fefefe65;
     font-family: var(--fuenteTitulos);/* Para combiar de tipo de letra */
     font-weight: 600;

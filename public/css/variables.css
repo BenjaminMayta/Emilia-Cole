@@ -3,5 +3,6 @@
 :root{
     --fuenteTitulos: 'Raleway', sans-serif;/* Cambio el tipo de letra del titulo */
     --fuenteSubtitulos: 'Open Sans' ,sans-serif;/* Cambio el tipo de letra del subtitulo */
+    --colorSecundarioFuentes:#1c9a85;;
 }
 /* :root creo mi sistema de variables, la cual puedo usar en todo momento */

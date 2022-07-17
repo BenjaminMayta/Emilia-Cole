@@ -1,6 +1,69 @@
+/* Header */
 .about{
     background-image:url('../img/emilia-about.jpg') ;
     background-repeat: no-repeat;
     background-position: right 0;
-    background-size: 71%;
+   /*  background-size: 71%; */
+    background-size: 75vw 100vh;
+    
+}
+
+.about header nav{
+    text-align: right; /* Se alinea todo nav a mano derecha */
+    padding-top: 45px; /* Baja el navegador */
+    width: 99%; /* lo recorre a la izquierda */
+    margin:0 auto;
+    /* padding-right: 15px; Moverlo a la izquierda */
+}
+
+.about header nav .navegacion{
+    background-color:#ffffff7c;
+    padding: 15px 1px; /* la altura del rectangulo blanco y la distancia de los navegadores a la izquierda */
+}
+
+.about header nav .navegacion li{
+    display: inline; /* se pone todo en linea */
+    padding: 0px 10px; /* Distancia entre las barras o listas */
+    border-left: 1px solid #1312127c;/* Separarlo con una barrita a la izquierda */
+}
+
+.about header li.barraDerecha{
+    border-right: 1px solid #1312127c/* Poner la barra que falta a la derecha */
+}
+
+.about header nav .navegacion li a {
+    font-family: var(--fuenteSubtitulos);
+    font-size: 24px;/* Aumenta el tamaño de la letra */
+    text-transform: uppercase;
+}
+
+.about header nav .icons{
+    margin-top: 10px;
+}
+
+/* Main */
+.about main h1{
+    font-family: var(--fuenteSubtitulos);
+    font-size: 70px;
+    /* margin: 30px 5px 20px; */
+}
+
+.about main h3{
+    margin: 35px 0 15px 40px;
+    color:var(--colorSecundarioFuentes);
+    font-size: 1.5rem;
+    text-transform: none;/* Primera mayuscula al principio */
+    font-family: var(--fuenteTitulos);
+    font-weight: 400;/* Cambio de la tipografia entre las elegidas */
+    font-size: 1.5rem;
+    
+}
+
+.about main p{
+    margin:0 40px;
+    color:var(--colorSecundarioFuentes);
+    text-transform: capitalize;/* la primera mayuscula en todas las palabras */
+    font-weight: 400;
+    font-family: var(--fuenteTitulos);
+
 }

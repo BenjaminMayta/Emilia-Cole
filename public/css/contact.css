@@ -1,0 +1,65 @@
+/* Header */
+.contact header{
+    height: 160px;/* La altura del header */
+}
+
+.contact header nav{
+    text-align: right; /* Se alinea todo nav a mano derecha */
+    padding-top: 45px; /* Baja el navegador */
+    width: 99%; /* lo recorre a la izquierda */
+    margin:0 auto;
+    /* padding-right: 15px; Moverlo a la izquierda */
+}
+
+.contact header nav .navegacion{
+    padding: 15px 1px; /* la altura del rectangulo blanco y la distancia de los navegadores a la izquierda */
+}
+
+.contact header nav .navegacion li{
+    display: inline; /* se pone todo en linea */
+    padding: 0px 10px; /* Distancia entre las barras o listas */
+    border-left: 1px solid #1312127c;/* Separarlo con una barrita a la izquierda */
+}
+
+.contact header li.barraDerecha{
+    border-right: 1px solid #1312127c/* Agrago una barra en el ultimo elemento de la lista */
+}
+
+.contact header nav .navegacion li a {
+    font-family: var(--fuenteSubtitulos);
+    font-size: 24px;/* Aumenta el tamanio de la letra */
+    text-transform: uppercase;
+}
+
+.contact header nav .icons{
+    margin-top: 10px;
+}
+
+/* Main */
+.contact main{
+    font-family: var(--fuenteSubtitulos);
+}
+
+.contact main h1{
+    font-size: 75px;
+    margin-top: 70px;
+}
+
+.contact main h2{
+    margin: 40px 0 10px; /* 40px arriba,0px a los costados y 10px abajo */
+    font-weight: 700;
+} 
+
+.contact main h4{
+    color:var(--colorSecundarioFuentes);
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.contact main p{
+    color: #808080;
+}
+
+.contact main p strong{
+    color: #000000;
+}
